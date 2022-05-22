@@ -1,8 +1,8 @@
 #!/bin/bash
-for (( i=7001; i<=9000; i++))
+for (( i=9001; i<=9030; i++))
 do
 touch $i
 git add .
-git commit -m "TST-1_$i"
+git commit -m "TST-1 #comment test_$i"
 done
 git push origin TST-1_tes_99 
