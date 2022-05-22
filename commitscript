@@ -1,9 +1,8 @@
 #!/bin/bash
-for (( i=1; i<=250; i++))
+for (( i=1; i<=3000; i++))
 do
-git checkout -b TST-1_tes_$i
 touch $i
 git add .
 git commit -m "$i"
-git git push origin TST-1_tes_$i
 done
+git push origin TST-1_tes_99 
