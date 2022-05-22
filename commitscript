@@ -1,5 +1,5 @@
 #!/bin/bash
-for (( i=4001; i<=7000; i++))
+for (( i=7001; i<=9000; i++))
 do
 touch $i
 git add .
