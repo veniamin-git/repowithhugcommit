@@ -1,8 +1,8 @@
 #!/bin/bash
-for (( i=9061; i<=9091; i++))
+for (( i=9091; i<=9121; i++))
 do
 touch $i
 git add .
-git commit -m "TST-1 #time 1h test_$i"
+git commit -m "TST-1 #label test_$i #time 1h"
 done
 git push origin TST-1_tes_99 
